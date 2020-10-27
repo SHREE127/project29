@@ -18,7 +18,7 @@ class hex{
         var pos = this.body.position;
   
         imageMode(CENTER);
-        image( pos.x, pos.y, this.width, this.height);
+        image( this.image, pos.x, pos.y, this.width, this.height);
         
       }
 }
