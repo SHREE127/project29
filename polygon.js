@@ -17,8 +17,8 @@ class hex{
       display(){
         var pos = this.body.position;
   
-        rectMode(CENTER);
-        rect( pos.x, pos.y, this.width, this.height);
+        imageMode(CENTER);
+        image( pos.x, pos.y, this.width, this.height);
         
       }
 }
