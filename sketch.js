@@ -59,7 +59,7 @@ Engine.run(engine);
 }
 
 function draw() {
-  background("black");  
+  background("white");  
 
   ground.display();
   ground2.display();
